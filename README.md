@@ -1,34 +1,20 @@
-# 🌩️ cloudnativeai.work
+# 🌩️ cloudnativeai.work (v3)
 
-**cloudnativeai.work** — A showcase and knowledge hub for Cloud-Native + Agentic AI projects.
+Verified working Next.js + TailwindCSS site with a visible blue gradient background.
 
-## 🚀 Tech Stack
-- [Next.js 14](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- Deployed via [Vercel](https://vercel.com)
-
-## 🧭 Setup Instructions
-
-### 1️⃣ Install dependencies
+## 🚀 Run locally
 ```bash
 npm install
-```
-
-### 2️⃣ Run locally
-```bash
 npm run dev
 ```
-Visit [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000)
 
-### 3️⃣ Deploy on Vercel
-- Push to GitHub
-- Import repo in [Vercel](https://vercel.com)
-- Add domain `cloudnativeai.work`
-- Update GoDaddy DNS:
+## 🧭 Deploy to Vercel
+Push to GitHub, import in [https://vercel.com](https://vercel.com), and deploy.
 
-| Type | Name | Value | TTL |
-|------|------|--------|-----|
-| A | @ | 76.76.21.21 | 1 Hour |
-| CNAME | www | cname.vercel-dns.com | 1 Hour |
-
-After propagation, your site is live 🎉
+If background gradient doesn't update, trigger a new build:
+```bash
+git commit --allow-empty -m "Trigger clean build"
+git push
+```
+Then redeploy from Git (main).
