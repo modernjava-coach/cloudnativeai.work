@@ -1,20 +1,17 @@
-# 🌩️ cloudnativeai.work (v3)
+# 🌩️ cloudnativeai.work (v5)
 
-Verified working Next.js + TailwindCSS site with a visible blue gradient background.
+Bright blue gradient version with guaranteed Tailwind detection on Vercel.
 
 ## 🚀 Run locally
 ```bash
 npm install
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000)
+Visit http://localhost:3000
 
-## 🧭 Deploy to Vercel
-Push to GitHub, import in [https://vercel.com](https://vercel.com), and deploy.
-
-If background gradient doesn't update, trigger a new build:
-```bash
-git commit --allow-empty -m "Trigger clean build"
-git push
-```
-Then redeploy from Git (main).
+## 🌐 Deploy to Vercel
+1. Push to GitHub.
+2. Go to https://vercel.com → New Project → Import Repo.
+3. Deploy.
+4. You should see "TailwindCSS 3.4.x ..." in the build logs.
+5. Visit https://cloudnativeai-work.vercel.app after deployment.

@@ -5,18 +5,3 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-
-/* ✅ Add this block to force Tailwind to keep gradient utilities */
-@layer utilities {
-  .from-blue-900 {
-    --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  }
-  .via-sky-800 {
-    --tw-gradient-stops: var(--tw-gradient-from), #075985 var(--tw-gradient-via-position), var(--tw-gradient-to);
-  }
-  .to-cyan-600 {
-    --tw-gradient-to: #0891b2 var(--tw-gradient-to-position);
-  }
-}
